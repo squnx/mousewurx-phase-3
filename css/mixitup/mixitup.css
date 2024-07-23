@@ -1,0 +1,70 @@
+.controls {
+    font-family: "Open Sans","Helvetica Neue", Arial, sans-serif;
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+
+.controls li {
+	color:#0055aa;
+	cursor: pointer;
+	display:inline;
+    font-family: "Open Sans","Helvetica Neue", Arial, sans-serif;
+	list-style-type:disc;
+	margin-left: 10px;
+}
+
+.controls li.active {
+	font-weight: 600;
+}
+
+.controls li:hover {
+    color:#428bca;
+}
+
+#Grid{
+	font-size: 0.1px;
+	padding-left: 0;
+	text-align: justify;
+}
+@media screen and (max-width: 480px) {
+	#Grid {
+		padding-left: 0;
+		text-align: center;
+	}
+}
+
+#Grid:after {
+	width: 100%;
+}
+
+#Grid h5 {
+	margin-top: 0;
+}
+
+#Grid li {
+	max-width: 260px;
+	width:: 100%;
+}
+
+#Grid .mix {
+	display: none;
+	opacity: 0;
+	height: auto;
+	vertical-align: top;
+	margin-top: 10px;
+	color: #222;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Grid .gap {
+	display: inline-block;
+	width:: 100%;
+}
+
+#Grid .gap img {
+	background: url(../../img/shim.gif) repeat-x bottom;
+	height: 1px;
+	width: 260px;
+}
